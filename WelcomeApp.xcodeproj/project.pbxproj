@@ -13,6 +13,8 @@
 		747561F7265D827A0080B7EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747561F5265D827A0080B7EC /* Main.storyboard */; };
 		747561F9265D827B0080B7EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747561F8265D827B0080B7EC /* Assets.xcassets */; };
 		747561FC265D827B0080B7EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747561FA265D827B0080B7EC /* LaunchScreen.storyboard */; };
+		74756204265D835A0080B7EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74756203265D835A0080B7EC /* LoginViewController.swift */; };
+		74756206265D83720080B7EC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74756205265D83720080B7EC /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		747561F8265D827B0080B7EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		747561FB265D827B0080B7EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		747561FD265D827B0080B7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74756203265D835A0080B7EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		74756205265D83720080B7EC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				747561F8265D827B0080B7EC /* Assets.xcassets */,
 				747561FA265D827B0080B7EC /* LaunchScreen.storyboard */,
 				747561FD265D827B0080B7EC /* Info.plist */,
+				74756203265D835A0080B7EC /* LoginViewController.swift */,
+				74756205265D83720080B7EC /* WelcomeViewController.swift */,
 			);
 			path = WelcomeApp;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74756204265D835A0080B7EC /* LoginViewController.swift in Sources */,
+				74756206265D83720080B7EC /* WelcomeViewController.swift in Sources */,
 				747561F4265D827A0080B7EC /* ViewController.swift in Sources */,
 				747561F0265D827A0080B7EC /* AppDelegate.swift in Sources */,
 				747561F2265D827A0080B7EC /* SceneDelegate.swift in Sources */,
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kindle.WelcomeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kindle.WelcomeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
