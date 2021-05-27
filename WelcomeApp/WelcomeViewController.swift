@@ -14,9 +14,8 @@ class WelcomeViewController: UIViewController {
     
     @IBOutlet weak var btnLogout: UIButton!
     
+    private let smile = ["😃", "😎", "🧐", "🤨", "😏"]
     var user = ""
-    var smile = ["😃", "😎", "🧐", "🤨", "😏"]
-    let emptyValue = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +31,7 @@ class WelcomeViewController: UIViewController {
     
     @IBAction func actionLogout(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
-
+        user = ""
     }
     
     private func setGradientBackground() {

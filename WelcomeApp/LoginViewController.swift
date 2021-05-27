@@ -75,8 +75,8 @@ class LoginViewController: UIViewController {
             return
         }
         
-        textFieldPassword.text = welcomeVC.emptyValue
-        textFieldName.text = welcomeVC.emptyValue
+        textFieldPassword.text = welcomeVC.user
+        textFieldName.text = welcomeVC.user
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -112,7 +112,7 @@ extension LoginViewController: UITextFieldDelegate{
 
 
 extension LoginViewController {
-    func showAlertWithTitle(title: String, message: String){
+    private func showAlertWithTitle(title: String, message: String){
         
         let alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
